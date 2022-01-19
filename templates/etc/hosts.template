@@ -1,0 +1,10 @@
+# NOTE: If you are trying to use reverse proxy in your local machine
+#       and you want to use fake domains,
+#
+# - Add below lines to /etc/hosts (you may need sudo access)
+#
+
+# Fake Domains
+127.0.0.1       ping.your-domain.com
+127.0.0.1       upstream.4000.your-domain.com
+# and so on ...
